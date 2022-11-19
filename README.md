@@ -189,6 +189,32 @@ docker-compose logs -f --tail "100"
 
 Cari nama validator anda [disini](https://stats.qtestnet.org/)
 
+### Mengupdate Q-Client
+
+Pergi ke folder `testnet-validator`
+
+```
+cd $HOME/testnet-public-tools/testnet-validator
+```
+
+Update konfigurasi terbaru
+
+```
+git stash && git pull
+```
+
+Terapkan konfigurasi
+
+```
+git stash apply && docker-compose pull
+```
+
+Mulai ulang docker
+
+```
+docker-compose up -d
+```
+
 ## Perintah berguna
 
 ## Troubleshoot
