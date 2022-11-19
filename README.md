@@ -147,6 +147,16 @@ nano config.json
 
 Lalu ganti address dan password dengan alamat dompet dan kata sandi anda
 
+contoh:
+
+```js
+{
+  "address": "ganti addressmu + hapus 0x didepan",
+  "password": "Passwordmu",
+  "keystoreDirectory": "/data",
+  "rpc": "https://rpc.qtestnet.org"
+}
+
 Setelah itu tekan <kbd>CTRL</kbd> + <kbd>x</kbd> + <kbd>Y</kbd> lalu tekan <kbd>Enter</kbd>
 
 ### Taruh stake di validator contract
