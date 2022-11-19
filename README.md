@@ -157,6 +157,8 @@ contoh:
   "rpc": "https://rpc.qtestnet.org"
 }
 
+```
+
 Setelah itu tekan <kbd>CTRL</kbd> + <kbd>x</kbd> + <kbd>Y</kbd> lalu tekan <kbd>Enter</kbd>
 
 ### Taruh stake di validator contract
